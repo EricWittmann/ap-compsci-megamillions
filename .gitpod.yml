@@ -1,7 +1,0 @@
-tasks:
- - command: mvn clean package
- - command: echo "================================================================="
- - command: echo "Welcome to the Megamillions Project AP Computer Science Solution!"
- - command: echo "================================================================="
- - command: echo "Type './run.sh' to run the program!"
- - command: echo ""
