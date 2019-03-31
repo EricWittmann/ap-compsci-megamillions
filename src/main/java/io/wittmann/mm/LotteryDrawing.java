@@ -10,7 +10,7 @@ import java.util.List;
  */
 public class LotteryDrawing {
 
-    private static int[] frequencies = new int[43];
+    private static int[] frequencies = new int[42];
     private static int numJackpots = 0;
 
     private ArrayList<Integer> numbers = new ArrayList<>();
@@ -21,7 +21,7 @@ public class LotteryDrawing {
      */
     public LotteryDrawing() {
         // First, create a collection of numbers to draw from (equivalent of the ping pong balls)
-        List<Integer> balls = new ArrayList<>(43);
+        List<Integer> balls = new ArrayList<>(42);
         for (int number = 1; number <= 42; number++) {
             balls.add(number);
         }
