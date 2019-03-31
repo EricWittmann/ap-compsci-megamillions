@@ -94,7 +94,7 @@ public class LotteryDrawing {
     /**
      * Print the accumulated number/ball frequencies accumulated thus far.
      */
-    public void printFrequences() {
+    public static void printFrequences() {
         for (int num = 1; num <= 42; num++) {
             int frequency = LotteryDrawing.frequencies[num-1];
             System.out.println("Pick " + num + " :: " + frequency);

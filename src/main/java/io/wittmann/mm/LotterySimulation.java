@@ -50,7 +50,7 @@ public class LotterySimulation {
         System.out.println("Summary of Results");
         System.out.println("------------------");
         System.out.println("Number Frequencies:");
-        millieDrawing.printFrequences();
+        LotteryDrawing.printFrequences();
         System.out.println("------------------");
         System.out.println("Jackpots Won: " + millieDrawing.getJackpotsWon());
     }
